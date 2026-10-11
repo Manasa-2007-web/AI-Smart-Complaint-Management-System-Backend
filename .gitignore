@@ -1,0 +1,9 @@
+target/
+.venv/
+__pycache__/
+*.pyc
+error.txt
+.env
+.env.*
+!.env.example
+src/main/java/com/complaint/management/dto/oracleJdk-27/
