@@ -1,6 +1,7 @@
 package com.complaint.management.config;
 
-import com.complaint.management.service.AppUserDetailsService;
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -19,7 +20,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import java.util.List;
+import com.complaint.management.service.AppUserDetailsService;
 
 @Configuration
 @EnableWebSecurity
